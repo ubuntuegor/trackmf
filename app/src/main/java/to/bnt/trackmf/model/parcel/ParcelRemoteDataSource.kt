@@ -24,7 +24,7 @@ class ParcelRemoteDataSource @Inject constructor() {
         }
     }
 
-    private val sourceEndpoint = "https://litemf.com/ru/tracking/%s"
+    private val sourceEndpoint = "https://litemf.com/en/tracking/%s"
 
     suspend fun getParcel(id: String): List<ParcelStatus> = withContext(Dispatchers.IO) {
         val response = try {
