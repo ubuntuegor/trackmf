@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">TrackMF</string>
+    <string name="no_track_number">No tracking number</string>
+    <string name="no_track_number_subtitle">Tap here to set the tracking number</string>
+
+    <string name="unknown_error">Unknown error</string>
+    <string name="network_error">Failed due to network error: %1$s</string>
+    <string name="parsing_error">Couldn\'t parse the tracking page</string>
+    <string name="no_parcel_error">No parcel with this tracking number</string>
+
+    <string name="edit_description">Edit</string>
+    <string name="track_id">Tracking number</string>
+    <string name="last_updated">Last updated: %1$s</string>
+    <string name="parcel_updated">Parcel info updated!</string>
+
+    <string name="notification_updates_channel">Parcel updates</string>
+
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="refresh">Refresh</string>
+</resources>
